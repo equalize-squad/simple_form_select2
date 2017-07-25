@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport',              '~> 5.0'
   spec.add_dependency 'simple_form',                '~> 3.4'
-  spec.add_dependency 'rails-assets-select2',       '~> 4.0', '>= 4.0.3'
+  spec.add_dependency 'rails-assets-select2',       '~> 4.0.3'
 
   spec.add_development_dependency 'bundler',        '~> 1.13'
   spec.add_development_dependency 'rake',           '~> 10.0'
