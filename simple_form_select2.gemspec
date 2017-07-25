@@ -1,4 +1,5 @@
 # coding: utf-8
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'simple_form_select2/version'
@@ -11,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'SimpleForm Select2 autocomplete'
   spec.description   = 'Select2 autocomplete wrapper for SimpleForm associations'
-  spec.homepage      = 'https://github.com/equalize-squad/simple_form_select2'
+  spec.homepage      = 'https://github.com/roalcantara/simple_form_select2'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
